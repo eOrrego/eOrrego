@@ -45,7 +45,8 @@
 
 <div align="center">
   <a href="https://dev.to/orregoe" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="orregoe" height="65" width="45" />
+    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" width="65" height="45"
+  alt="devto logo" />
   </a>
   <a href="https://mail.google.com/mail/u/orregoe@gmail.com" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="65" height="45" alt="gmail logo"  />
