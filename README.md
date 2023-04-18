@@ -44,6 +44,10 @@
 ###
 
 <div align="center">
+  <a href="https://stackoverflow.com/users/2463387/orregoe" target="_blank">
+    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" width="65" height="45"
+  alt="stackoverflow logo" />
+  </a>
   <a href="https://dev.to/orregoe" target="_blank">
     <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" width="65" height="45"
   alt="devto logo" />
