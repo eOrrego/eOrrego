@@ -2,6 +2,10 @@
 
 ###
 
+<img src="https://i.ibb.co/qY10rdq/eOBanner.png" />
+
+###
+
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=eOrrego&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=chartreuse-dark&locale=en&hide_border=true" height="140" alt="stats graph"  />
   <img src="https://streak-stats.demolab.com?user=eOrrego&locale=en&mode=weekly&theme=chartreuse-dark&hide_border=true&border_radius=0" height="140" alt="streak graph"  />
