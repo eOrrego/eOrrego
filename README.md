@@ -2,7 +2,7 @@
 
 ###
 
-<img src="https://i.ibb.co/qY10rdq/eOBanner.png" />
+<img src="https://i.ibb.co/WVKqgkF/Linked-In-Banner-full-stack-developer-Esteban-Orrego-202304.png" />
 
 ###
 
