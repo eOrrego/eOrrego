@@ -6,7 +6,7 @@
   <a href="https://www.linkedin.com/in/orregoe/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="https://dev.to/orregoe"><img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white" alt="dev.to"/></a>
   <a href="https://stackoverflow.com/users/2463387/orregoe"><img src="https://img.shields.io/badge/Stack_Overflow-F58025?style=for-the-badge&logo=stackoverflow&logoColor=white" alt="Stack Overflow"/></a>
-  <a href="https://twitter.com/orregoe"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a>
+  <a href="https://x.com/EstebanOrrego"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a>
   <a href="mailto:orregoe@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
 
@@ -38,12 +38,6 @@ I'm a Full Stack Developer from Argentina 🇦🇷. I build **multi-tenant SaaS 
   <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite"/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
 </p>
-
-### 📊 GitHub stats
-
-<div align="center">
-  <img height="170" src="https://streak-stats.demolab.com?user=eOrrego&hide_border=true&theme=tokyonight" alt="streak"/>
-</div>
 
 ---
 
