@@ -2,13 +2,9 @@
 <h3 align="center">Full Stack Developer · Shipping multi-tenant SaaS, AI in the loop</h3>
 <p align="center"><em>Desarrollador Full Stack · Construyo SaaS multi-tenant con IA en el proceso</em></p>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/orregoe/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://dev.to/orregoe"><img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white" alt="dev.to"/></a>
-  <a href="https://stackoverflow.com/users/2463387/orregoe"><img src="https://img.shields.io/badge/Stack_Overflow-F58025?style=for-the-badge&logo=stackoverflow&logoColor=white" alt="Stack Overflow"/></a>
-  <a href="https://x.com/EstebanOrrego"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a>
-  <a href="mailto:orregoe@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-</p>
+<!-- Los <img> de cada bloque van en UNA sola línea a propósito: GitHub convierte
+     los saltos de línea dentro de estos <p> en <br> y los apila en columna. -->
+<p align="center"><a href="https://www.linkedin.com/in/orregoe/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a> <a href="https://dev.to/orregoe"><img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white" alt="dev.to"/></a> <a href="https://stackoverflow.com/users/2463387/orregoe"><img src="https://img.shields.io/badge/Stack_Overflow-F58025?style=for-the-badge&logo=stackoverflow&logoColor=white" alt="Stack Overflow"/></a> <a href="https://x.com/EstebanOrrego"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a> <a href="mailto:orregoe@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a></p>
 
 ---
 
@@ -26,29 +22,13 @@ I'm a Full Stack Developer from Argentina 🇦🇷. I build **multi-tenant SaaS 
 
 ### 🧰 Tech stack
 
-<p align="left">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/>
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go"/>
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS"/>
-  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-  <img src="https://img.shields.io/badge/Auth0-EB5424?style=flat-square&logo=auth0&logoColor=white" alt="Auth0"/>
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
-</p>
+<p align="left"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/> <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/> <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go"/> <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS"/> <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/> <img src="https://img.shields.io/badge/Auth0-EB5424?style=flat-square&logo=auth0&logoColor=white" alt="Auth0"/> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/></p>
 
 ### 📊 Activity
 
-<p align="center">
-  <img height="200" src="./profile/stats.svg" alt="GitHub stats: commits, pull requests, issues and rank"/>
-  <img height="200" src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Top languages by commit count"/>
-</p>
+<p align="center"><img height="200" src="./profile/stats.svg" alt="GitHub stats: commits, pull requests, issues and rank"/> <img height="200" src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Top languages by commit count"/></p>
 
-<p align="center">
-  <img src="./profile/streak.svg" alt="Contribution streak: current streak, longest streak and total contributions"/>
-</p>
+<p align="center"><img src="./profile/streak.svg" alt="Contribution streak: current streak, longest streak and total contributions"/></p>
 
 > _Most of my work lives in private repositories. These cards are generated from my own account data, so they reflect the real volume — not just what's public._
 > _La mayor parte de mi trabajo está en repositorios privados. Estas tarjetas se generan con los datos de mi propia cuenta, así que reflejan el volumen real — no solo lo público._
@@ -56,13 +36,9 @@ I'm a Full Stack Developer from Argentina 🇦🇷. I build **multi-tenant SaaS 
 <details>
 <summary>📈 More stats · Más métricas</summary>
 <br/>
-<p align="center">
-  <img src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="Repositories per language"/>
-  <img height="165" src="./profile/top-langs.svg" alt="Most used languages by code size in my own repositories"/>
-</p>
-<p align="center">
-  <img src="./profile-summary-card-output/github_dark/4-productive-time.svg" alt="Most productive hours of the day"/>
-</p>
+<p align="center"><img src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="Repositories per language"/> <img height="165" src="./profile/top-langs.svg" alt="Most used languages by code size in my own repositories"/></p>
+
+<p align="center"><img src="./profile-summary-card-output/github_dark/4-productive-time.svg" alt="Most productive hours of the day"/></p>
 </details>
 
 ---
