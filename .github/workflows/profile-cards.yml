@@ -1,0 +1,66 @@
+name: Profile cards
+
+# Genera las cards del README como SVG y las commitea al repo.
+# Rationale: no dependemos de endpoints públicos (rate limits / proyectos que mueren)
+# y el token propio permite contar la actividad en repos privados.
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # 03:00 ART
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-cards
+  cancel-in-progress: false
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Stats card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=eOrrego&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&theme=github_dark
+          path: profile/stats.svg
+          token: ${{ secrets.PROFILE_CARDS_TOKEN }}
+          fail_on_error: true
+
+      - name: Top languages card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=eOrrego&layout=compact&langs_count=8&hide_border=true&theme=github_dark
+          path: profile/top-langs.svg
+          token: ${{ secrets.PROFILE_CARDS_TOKEN }}
+          fail_on_error: true
+
+      - name: Streak card
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          options: user=eOrrego&theme=github-dark&hide_border=true&disable_animations=true
+          path: profile/streak.svg
+          token: ${{ secrets.PROFILE_CARDS_TOKEN }}
+
+      - name: Summary cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.PROFILE_CARDS_TOKEN }}
+        with:
+          USERNAME: eOrrego
+          UTC_OFFSET: -3
+          THEME: github_dark
+          AUTO_PUSH: false # commiteamos todo junto en un solo commit al final
+
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg profile-summary-card-output/
+          git commit -m "chore(cards): actualizar stats del perfil" || exit 0
+          git push
