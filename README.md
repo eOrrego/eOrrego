@@ -39,6 +39,32 @@ I'm a Full Stack Developer from Argentina 🇦🇷. I build **multi-tenant SaaS 
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
 </p>
 
+### 📊 Activity
+
+<p align="center">
+  <img height="200" src="./profile/stats.svg" alt="GitHub stats: commits, pull requests, issues and rank"/>
+  <img height="200" src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Top languages by commit count"/>
+</p>
+
+<p align="center">
+  <img src="./profile/streak.svg" alt="Contribution streak: current streak, longest streak and total contributions"/>
+</p>
+
+> _Most of my work lives in private repositories. These cards are generated from my own account data, so they reflect the real volume — not just what's public._
+> _La mayor parte de mi trabajo está en repositorios privados. Estas tarjetas se generan con los datos de mi propia cuenta, así que reflejan el volumen real — no solo lo público._
+
+<details>
+<summary>📈 More stats · Más métricas</summary>
+<br/>
+<p align="center">
+  <img src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="Repositories per language"/>
+  <img height="165" src="./profile/top-langs.svg" alt="Most used languages by code size in my own repositories"/>
+</p>
+<p align="center">
+  <img src="./profile-summary-card-output/github_dark/4-productive-time.svg" alt="Most productive hours of the day"/>
+</p>
+</details>
+
 ---
 
 <p align="center"><em>💬 Open to interesting full-stack & AI projects — feel free to reach out!</em><br/><em>Abierto a proyectos full-stack y de IA — ¡escribime!</em></p>
