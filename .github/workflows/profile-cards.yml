@@ -46,7 +46,9 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=eOrrego&layout=compact&langs_count=8&hide_border=true&theme=github_dark
+          # role= suma los repos de la org (pulselabs-ar), donde vive todo el Go.
+          # Requiere scope read:org en el PAT. Sin esto la card solo ve repos propios.
+          options: username=eOrrego&layout=compact&langs_count=8&hide_border=true&theme=github_dark&role=OWNER,ORGANIZATION_MEMBER
           path: profile/top-langs.svg
           token: ${{ secrets.PROFILE_CARDS_TOKEN }}
           fail_on_error: true
