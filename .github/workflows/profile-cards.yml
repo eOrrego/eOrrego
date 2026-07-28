@@ -22,6 +22,17 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
+      # Un secret vacío no rompe las actions: generan cards con datos públicos
+      # (casi en cero) y el workflow queda verde. Fallamos temprano y fuerte.
+      - name: Check token
+        env:
+          TOKEN: ${{ secrets.PROFILE_CARDS_TOKEN }}
+        run: |
+          if [ -z "$TOKEN" ]; then
+            echo "::error::PROFILE_CARDS_TOKEN vacío o sin configurar. Las cards saldrían con datos públicos únicamente."
+            exit 1
+          fi
+
       - name: Stats card
         uses: stats-organization/github-readme-stats-action@v2
         with:
